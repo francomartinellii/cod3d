@@ -16,10 +16,15 @@ body {
 }
 
 header {
-    background-image: url(https://www.starkstate.edu/wp-content/uploads/2017/08/manufacturing-3d-printing-header.jpg);
-    width: 100%;
+    background-image: url(../assets/img/bannerrsz.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
 }
 
+.gridheader {
+    height: 250px;
+}
 
 nav {
     display: flex;
@@ -418,6 +423,12 @@ main div a img:hover {
 
     body {
         width:100% ;
+    }
+
+    header {
+        background-image: url(../assets/img/3bannerrszmedia.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     nav {
