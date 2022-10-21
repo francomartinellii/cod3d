@@ -10,20 +10,31 @@ html {
 
 }
 
-body { 
-    min-height: 100vh; 
+body {
+    min-height: 100vh;
     width: 100%;
 }
+
+.bodybackgraundcolor {
+    background-image: linear-gradient(to right bottom, #206489, #00689e, #006bb3, #006cc7, #006cd9, #0078e6, #0083f2, #008fff, #00a9ff, #00c0ff, #00d4fc, #18e6f0);
+    font-family: 'Kanit', sans-serif;
+}
+
 
 header {
     background-image: url(../assets/img/bannerrsz.jpg);
     background-repeat: no-repeat;
-    
+
     background-size: cover;
 }
 
 .gridheader {
     height: 250px;
+}
+
+#navacercade ul {
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 nav {
@@ -121,8 +132,7 @@ footer {
 
 .contactanos section h3 {
     color: white;
-    font-size: 1.5rem
-    ;
+    font-size: 1.5rem;
 
 }
 
@@ -136,7 +146,7 @@ footer {
 .mapa {
     grid-area: map;
     background-color: #353535;
-    padding:10px;
+    padding: 10px;
 }
 
 .contenedorcontactanos {
@@ -257,11 +267,11 @@ textarea {
 .tutorialesvid div iframe {
     width: 500px;
     height: 315px;
-    
+
 }
 
 .titulo__lorem {
-    padding-bottom: 5% ;
+    padding-bottom: 5%;
     color: white;
 }
 
@@ -271,9 +281,8 @@ textarea {
     margin: 5%;
     background-color: rgba(218, 218, 218, 0.692);
     border-radius: 10px;
-    
-
 }
+
 
 .promo {
     width: 100%;
@@ -284,7 +293,7 @@ textarea {
 }
 
 main div a img:hover {
-    transform:scale(1.05,1.05);
+    transform: scale(1.05, 1.01);
 }
 
 .contenedorcontactanos ul {
@@ -422,7 +431,7 @@ main div a img:hover {
 @media screen and (max-width: 1100px) {
 
     body {
-        width:100% ;
+        width: 100%;
     }
 
     header {
@@ -431,6 +440,11 @@ main div a img:hover {
         background-size: cover;
     }
 
+    #navacercade ul {
+        z-index: 1;
+    }
+
+   
     nav {
         border-bottom: 1px solid #455468;
     }
@@ -438,7 +452,7 @@ main div a img:hover {
     nav ul {
         position: absolute;
         width: 100%;
-        height: calc(100vh - 71px);
+        height: 400px;
         background-color: #18283B;
         left: 0;
         top: 0;
@@ -469,9 +483,9 @@ main div a img:hover {
         width: 60px;
     }
 
-    .barraIndex{
-        display:grid;
-        grid-template-columns: repeat(5,1fr);
+    .barraIndex {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
         grid-template-rows: (1fr);
         background-color: rgb(255, 255, 255);
         justify-items: center;
@@ -491,16 +505,16 @@ main div a img:hover {
     }
 
     .tutorialesvid {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 20px;
-    gap: 30px;
-    border-radius: 0;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding: 20px;
+        gap: 30px;
+        border-radius: 0;
     }
 
-    .tutorialesvid div iframe{
+    .tutorialesvid div iframe {
         width: 100%;
     }
 
@@ -514,9 +528,10 @@ main div a img:hover {
         margin-bottom: 20px;
 
     }
+
     .mapa iframe {
         width: 100%;
-        
+
     }
 
     .contenedorcontactanos ul {
@@ -524,17 +539,20 @@ main div a img:hover {
         padding-top: 300px;
         align-items: flex-end;
         width: 100%;
-        
+
     }
+
     .contenedorcontactanos ul li a {
-        transform:  translate(0, 0);
+        transform: translate(0, 0);
     }
-        
+
     .contenedorcontactanos ul li a:hover {
-        transform:  translate(20px, -15px);
+        transform: translate(20px, -15px);
     }
+
     .catalogosection {
         margin: 5px;
+        padding-right: 2%;
     }
 
     .catalogo {
@@ -543,4 +561,4 @@ main div a img:hover {
         justify-content: space-between;
     }
 
-}    
+}
