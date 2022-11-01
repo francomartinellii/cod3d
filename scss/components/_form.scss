@@ -1,0 +1,53 @@
+.contactoform {
+    grid-area: form;
+    padding: 2%;
+    background-color: $background-color_3;
+    border-radius: 2px solid;
+    width: 500px;
+}
+
+.feedback-input {
+    color: $color_2;
+    font-family: $font-family_2;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: $background-color_4;
+    border: 2px solid #0643a0;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+
+    &:focus {
+        border: 2px solid #3f7bd4;
+    }
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+[type="submit"] {
+    width: 100%;
+    background: $color_3;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: $color_2;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+
+    &:hover {
+        background: #3f7bd4;
+    }
+}

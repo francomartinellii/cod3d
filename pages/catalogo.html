@@ -1,30 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalogo | Cod3D</title>
-    <link rel="stylesheet" href="../CSS/style.css">
     <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@900&family=Encode+Sans:wght@100;600;700;800&family=Kanit:wght@500;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="../scss/style.css">
 
 </head>
 
 <body>
     <header>
-        <div class="gridheader">
-            <a href="../index.html"><img src="../assets/img/Captura_de_pantalla_2022-09-24_202945-removebg-preview.png" alt="" width="200"></a>
+        <div class="header_banner">
+            <a href="../index.html"><img src="../assets/img/Captura_de_pantalla_2022-09-24_202945-removebg-preview.png"
+                    alt="header_banner" width="200"></a>
         </div>
         <nav>
             <input type="checkbox" id="checkbox">
             <label for="checkbox" id="icon">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
             </label>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
@@ -37,86 +41,118 @@
     </header>
     <main>
 
-        <section class="catalogosection">
-            
-            <div id="impresoras" class="catalogo">
-                <img src="../assets/img/hellbot apolo.jpg" width="50px" alt="">
-                <p>Combo Impresora Hellbot Apolo Pro + Maquina Lavado Hellbot Octopus</p>
+        <section class="catalogo__contenedor">
+
+            <div id="impresoras" class="catalogo__card">
+                <img src="../assets/img/hellbot apolo.jpg" width="50px" alt="apolo">
+                <div>
+                    <p>Combo Impresora Hellbot Apolo Pro + Maquina Lavado Hellbot Octopus</p>
+                </div>
                 <p class="precio">$103.090</p>
             </div>
-            <div class="catalogo">
-                <img src="../assets/img/ender 3.jpg" width="50px" alt="">
+            <div class="catalogo__card">
+                <img src="../assets/img/ender 3.jpg" width="50px" alt="ender3">
+                <div>
                 <p>Impresora 3D Creality Ender 3 S1</p>
+            </div>
                 <p class="precio">$118.999</p>
             </div>
-            <div class="catalogo">
-                <img src="../assets/img/magna se 32.jpg" width="50px" alt="">
-                <p>Impresora Hellbot Magna SE 32 BITS</p>
+            <div class="catalogo__card">
+                <img src="../assets/img/magna se 32.jpg" width="50px" alt="magnase">
+                <div>
+                    <p>Impresora Hellbot Magna SE 32 BITS</p>
+                </div>
                 <p class="precio">$65.900</p>
             </div>
-            <div class="catalogo">
-                <img src="../assets/img/magna se 32.jpg" width="50px" alt="">
-                <p>Impresora Hellbot Magna SE PRO FDM</p>
+            <div class="catalogo__card">
+                <img src="../assets/img/magna se 32.jpg" width="50px" alt="magnasepro">
+                <div>
+                    <p>Impresora Hellbot Magna SE PRO FDM</p>
+                </div>
                 <p class="precio">$89.900</p>
             </div>
-            <div class="catalogo">
-                <img src="../assets/img/ender 3 s1.jpg" width="50px" alt="">
-                <p>Impresora 3D Creality Ender 3</p>
+            <div class="catalogo__card">
+                <img src="../assets/img/ender 3 s1.jpg" width="50px" alt="ender3s1">
+                <div>
+                    <p>Impresora 3D Creality Ender 3</p>
+                </div>
                 <p class="precio">$55.999</p>
             </div>
-            <div class="catalogo">
-                <img src="../assets/img/halotOne.jpg" width="50px" alt="">
-                <p>Impresora 3d Creality Halot One DLP</p>
+            <div class="catalogo__card">
+                <img src="../assets/img/halotOne.jpg" width="50px" alt="halo">
+                <div>
+                    <p>Impresora 3d Creality Halot One DLP</p>
+                </div>
                 <p class="precio">$80.999</p>
             </div>
-            <div class="catalogo">
-                <img src="../assets/img/racor.jpg" width="50px" alt="">
-                <p>Acople Racor Instantáneo Manguera Impresora 3d Extrusor 1.75</p>
+            <div class="catalogo__card">
+                <img src="../assets/img/racor.jpg" width="50px" alt="racord">
+                <div>
+                    <p>Acople Racor Instantáneo Manguera Impresora 3d Extrusor 1.75</p>
+                </div>
                 <p class="precio">$212</p>
             </div>
-            <div class="catalogo">
-                <img src="../assets/img/camaCaliente.jpg" width="50px" alt="">
-                <p>Cama Caliente PEI acero endurecido con sticker magnético Original Creality</p>
+            <div class="catalogo__card">
+                <img src="../assets/img/camaCaliente.jpg" width="50px" alt="cama">
+                <div>
+                    <p>Cama Caliente PEI acero endurecido con sticker magnético Original Creality</p>
+                </div>
                 <p class="precio">$9.986</p>
             </div>
-            <div id="extrusor" class="catalogo">
-                <img src="../assets/img/extrusorMk9.jpg" width="50px" alt="">
-                <p>Extrusor Metálico Mk8 Creality</p>
+            <div id="extrusor" class="catalogo__card">
+                <img src="../assets/img/extrusorMk9.jpg" width="50px" alt="mk9">
+                <div>
+                    <p>Extrusor Metálico Mk8 Creality</p>
+                </div>
                 <p class="precio">$2.690</p>
             </div>
-            <div class="catalogo">
-                <img id="pla" src="../assets/img/filaglitter.jpg" width="50px" alt="">
-                <p>Filamento 3d PLA ASTRA Glitter 1,75mm 1kg DARK</p>
+            <div class="catalogo__card">
+                <img id="pla" src="../assets/img/filaglitter.jpg" width="50px" alt="glitter">
+                <div>
+                    <p>Filamento 3d PLA ASTRA Glitter 1,75mm 1kg DARK</p>
+                </div>
                 <p class="precio">$3.420</p>
             </div>
-            <div class="catalogo">
-                <img src="../assets/img/filaGrilon.jpg" width="50px" alt="">
-                <p>Filamento Grilon PLA 1.75mm BLANCO 1kg</p>
+            <div class="catalogo__card">
+                <img src="../assets/img/filaGrilon.jpg" width="50px" alt="grilon">
+                <div>
+                    <p>Filamento Grilon PLA 1.75mm BLANCO 1kg</p>
+                </div>
                 <p class="precio">$2.680</p>
             </div>
-            <div class="catalogo">
-                <img src="../assets/img/filaRecarga.jpg" width="50px" alt="">
-                <p>Filamento 3D RECARGA PLA 1.75 Hellbot</p>
+            <div class="catalogo__card">
+                <img src="../assets/img/filaRecarga.jpg" width="50px" alt="recarga">
+                <div>
+                    <p>Filamento 3D RECARGA PLA 1.75 Hellbot</p>
+                </div>
                 <p class="precio">$1.850</p>
             </div>
-            <div class="catalogo">
-                <img src="../assets/img/resina.jpg" width="50px" alt="">
-                <p>Resina Hellbot Lavable al Agua Blanca 250ml</p>
+            <div class="catalogo__card">
+                <img src="../assets/img/resina.jpg" width="50px" alt="resina">
+                <div>
+                    <p>Resina Hellbot Lavable al Agua Blanca 250ml</p>
+                </div>
                 <p class="precio">$3.800</p>
             </div>
-            <div class="catalogo">
-                <img src="../assets/img/kitArduino.jpg" width="50px" alt="">
-                <p>Kit Arduino de 37 sensores V2</p>
+            <div class="catalogo__card">
+                <img src="../assets/img/kitArduino.jpg" width="50px" alt="arduino">
+                <div>
+                    <p>Kit Arduino de 37 sensores V2</p>
+                </div>
                 <p class="precio">$8.741</p>
             </div>
-            <div class="catalogo">
-                <img src="../assets/img/mangueraTeflon.jpg" width="50px" alt="">
-                <p>Manguera De Teflon Ptfe Ø 4 X Ø 2 Para Impresora 3d X 50cm</p>
+            <div class="catalogo__card">
+                <img src="../assets/img/mangueraTeflon.jpg" width="50px" alt="teflon">
+                <div>
+                    <p>Manguera De Teflon Ptfe Ø 4 X Ø 2 Para Impresora 3d X 50cm</p>
+                </div>
                 <p class="precio">$638</p>
             </div>
-            <div id="nozzle" class="catalogo">
-                <img src="../assets/img/nozzle.jpg" width="50px" alt="">
-                <p>Nozzle Bronce M6 MK8 1.75mm 1.0mm</p>
+            <div id="nozzle" class="catalogo__card">
+                <img src="../assets/img/nozzle.jpg" width="50px" alt="nozzle">
+                <div>
+                    <p>Nozzle Bronce M6 MK8 1.75mm 1.0mm</p>
+                </div>
                 <p class="precio">$416</p>
             </div>
 

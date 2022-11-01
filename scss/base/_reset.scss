@@ -1,0 +1,24 @@
+@import "./typo";
+@import "../utilitiees/colors";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+html {
+	background-image: $background-color_10;
+	font-family: $font-family_1 ;
+}
+body {
+	min-height: 100vh;
+	width: 100%;
+}
+
+
+.bodybackgraundcolor {
+	background-image: $background-color_10;
+	font-family: $font-family_1;
+}
