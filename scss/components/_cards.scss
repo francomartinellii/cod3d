@@ -15,6 +15,10 @@
     align-items: center;
     padding: 10px;
 
+    img {
+        width: 50px;
+    }
+
 }
 
 //Cards Productos
@@ -52,16 +56,16 @@
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
-  }
-  
-  .index__texto {
+}
+
+.index__texto {
     align-items: center;
     padding: 3%;
-  }
-  
-  //Card Tutoriales
+}
 
-  .card__tuto {
+//Card Tutoriales
+
+.card__tuto {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -82,15 +86,16 @@
 //Card About
 
 .card {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	margin: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
 }
 
 .container {
-	padding: 0 16px;
-	&::after {
-		content: "";
-		clear: both;
-		display: table;
-	}
+    padding: 0 16px;
+
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
 }

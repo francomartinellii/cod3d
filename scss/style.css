@@ -44,6 +44,9 @@ header {
 .header_banner {
   height: 250px;
 }
+.header_banner img {
+  width: 200px;
+}
 
 #navacercade ul {
   margin-bottom: 0;
@@ -126,6 +129,9 @@ footer {
   align-items: center;
   padding: 10px;
 }
+.catalogo__card img {
+  width: 50px;
+}
 
 .productos__card {
   display: flex;
@@ -203,6 +209,10 @@ footer {
   margin-top: 30px;
   height: 80px;
   align-items: center;
+}
+
+#prusa {
+  height: 50px;
 }
 
 .buttons__redes {
@@ -406,10 +416,22 @@ main div a img:hover {
   border-radius: 10px;
 }
 
+.index__contenido img {
+  height: 500px;
+}
+
+.head_banner img {
+  width: 200px;
+}
+
 .mapa {
   grid-area: map;
   background-color: #353535;
   padding: 10px;
+}
+.mapa iframe {
+  width: 480px;
+  height: 534px;
 }
 
 @media screen and (max-width: 1100px) {
