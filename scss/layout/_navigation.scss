@@ -14,7 +14,7 @@ nav {
 				padding: 8px 30px;
 				border-radius: 7px;
 				transition: all .3s ease;
-				font-size: 1.5rem;
+				font-size: map-get($tamaños, "medium");
 			}
 		}
 	}
@@ -48,7 +48,7 @@ ul {
 		transition: all .3s ease;
 	}
 	&:hover {
-		background: #FFF;
+		background: $color_2;
 		svg {
 			color: $color_3;
 		}
