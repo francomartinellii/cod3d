@@ -121,7 +121,6 @@ footer {
 }
 .catalogo__contenedor h1 {
   color: #FFF;
-  size: 20rem;
   background-color: #353535;
   text-align: center;
   width: 90%;
@@ -568,6 +567,10 @@ main div a img:hover {
     margin: 5px;
     padding-right: 2%;
     margin-top: 100px;
+  }
+  .catalogo__contenedor h1 {
+    width: 100%;
+    margin: 1%;
   }
   .catalogo__card {
     width: 100%;
