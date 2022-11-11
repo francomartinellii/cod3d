@@ -112,6 +112,8 @@ footer {
   text-align: center;
   text-shadow: rgb(0, 0, 0);
   size: 1.5rem;
+  margin-top: 50px;
+  padding-bottom: 10px;
 }
 
 .catalogo__contenedor {
@@ -253,7 +255,7 @@ footer {
   box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
 }
 .buttons__redes ul li a .fa {
-  font-size: 40px;
+  font-size: 50px;
   color: #262626;
   line-height: 80px;
   transition: 0.5s;
@@ -537,7 +539,6 @@ main div a img:hover {
   .contactanos {
     display: flex;
     flex-direction: column;
-    padding-bottom: 65%;
     margin-top: 50px;
   }
   .contactoform {
@@ -548,12 +549,12 @@ main div a img:hover {
     width: 100%;
   }
   .buttons__redes {
-    height: 100px;
-    margin-left: 25%;
+    margin-left: 20%;
+    height: 500px;
+    padding-top: 0;
   }
   .buttons__redes ul {
     display: block;
-    padding-top: 250px;
     align-items: flex-end;
     width: 100%;
   }
@@ -584,5 +585,8 @@ main div a img:hover {
   }
   .catalogo__card div p {
     text-align: left;
+  }
+  .about-section {
+    padding-top: 100px;
   }
 }/*# sourceMappingURL=style.css.map */
