@@ -19,6 +19,10 @@
 
     nav {
         border-bottom: 1px solid #455468;
+        display: block;
+        z-index: 50;
+        position: absolute;
+        width: 100%;
 
         ul {
             position: sticky;
@@ -35,6 +39,9 @@
     }
 
     ul {
+        position: fixed;
+        z-index: 99;
+
         li {
             display: block;
             padding: 10px 15px;
@@ -49,6 +56,7 @@
     #icon {
         display: block;
         z-index: 1;
+        width: 42px;
 
 
     }
@@ -58,6 +66,7 @@
             display: block;
         }
     }
+
 
     //Media Index
 
@@ -74,7 +83,7 @@
         background-color: $color_2;
         justify-items: center;
         align-content: center;
-        margin-top: 30px;
+        margin-top: 100px;
         height: 100%;
         width: 100%;
         align-items: center;
@@ -88,6 +97,11 @@
         border-radius: 0;
     }
 
+    .index__img {
+        display: flex;
+        justify-content: center;
+    }
+
     .card__tuto {
         display: inline-block;
         align-items: center;
@@ -96,6 +110,7 @@
         padding: 20px;
         gap: 30px;
         border-radius: 0;
+        width: 90%;
 
         div {
             iframe {
@@ -106,9 +121,12 @@
 
     //Media Contacto
 
+
     .contactanos {
-        display: inline-block;
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 65%;
+        margin-top: 50px;
     }
 
     .contactoform {
@@ -122,12 +140,16 @@
         }
     }
 
+
     //Media Buttons
 
     .buttons__redes {
+        height: 100px;
+        margin-left: 25%;
+
         ul {
             display: block;
-            padding-top: 300px;
+            padding-top: 250px;
             align-items: flex-end;
             width: 100%;
 
@@ -148,19 +170,22 @@
     .catalogo__contenedor {
         margin: 5px;
         padding-right: 2%;
+        margin-top: 100px;
     }
 
     .catalogo__card {
         width: 100%;
         margin: 1%;
         justify-content: space-between;
-            div{
-                width: 100%;
-                padding-left: 30px;
-                padding-right: 30px;
-                    p{
-                        text-align: left;
-                    }    
+
+        div {
+            width: 100%;
+            padding-left: 30px;
+            padding-right: 30px;
+
+            p {
+                text-align: left;
             }
+        }
     }
 }
