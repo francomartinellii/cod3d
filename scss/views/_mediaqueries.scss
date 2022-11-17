@@ -33,7 +33,7 @@
             top: 0;
             text-align: center;
             display: none;
-            
+
         }
     }
 
@@ -56,8 +56,6 @@
         display: block;
         z-index: 1;
         width: 42px;
-
-
     }
 
     #checkbox {
@@ -65,7 +63,6 @@
             display: block;
         }
     }
-
 
     //Media Index
 
@@ -120,7 +117,6 @@
 
     //Media Contacto
 
-
     .contactanos {
         display: flex;
         flex-direction: column;
@@ -138,14 +134,12 @@
         }
     }
 
-
     //Media Buttons
 
     .buttons__redes {
         margin-left: 20%;
         height: 500px;
         padding-top: 0;
-
 
         ul {
             display: block;
@@ -194,7 +188,7 @@
     }
 
     //Media About
-    
+
     .about-section {
         padding-top: 100px;
     }
